@@ -1,0 +1,340 @@
+@font-face {
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+body{
+    background: #000;
+    font-family: SF Pro Display, sans-serif;
+}
+.about a{
+    text-decoration: none;
+    color: #C30203;
+}
+.projects a{
+    text-decoration: none;
+    color: #C30203;
+}
+.about{
+    color: #C30203;
+    text-decoration: none;
+
+    font-family: SF Pro Display , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header-con{
+    padding: 41px;
+    display: flex;
+    justify-content: space-between;
+    font-family: SF Pro Display , sans-serif;
+
+}
+header{
+    /*position: relative;*/
+}
+.projects,.about{
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+.about{
+    padding-right: 25px;
+}
+main a{
+    text-decoration: none;
+    color: #C30203;
+}
+
+img {
+    display: block; /* Делаем изображение блочным элементом */
+    width: 110%; /* Растягиваем изображение по всей ширине родительского контейнера */
+    /*height: auto; !* Поддерживаем пропорции изображения *!*/
+    flex-shrink: 0;
+    background-size: cover; /* Позволяет изображению занимать всю доступную область */
+    background-position: center;
+}
+header {
+    position: relative; /* Устанавливаем позицию заголовка как относительную */
+    z-index: 1; /* Устанавливаем заголовок выше по стеку, чем изображение */
+}
+.content-container {
+    position: absolute; /* Установка абсолютного позиционирования */
+    top: 0; /* Прикрепляем изображение к верхнему краю страницы */
+    left: 0; /* Прикрепляем изображение к левому краю страницы */
+    width: 100%;
+    height: 150vh; /* Задаем высоту по высоте видимой области экрана */
+    background-image: url('img/DSC_15081.png');
+    background-size: cover; /* Позволяет изображению занимать всю доступную область */
+    background-position: top left; /* Выравниваем изображение по верхнему левому углу */
+}
+.img-1{
+    /*margin: 0 auto;*/
+    transform: scale(0.8);
+    display: flex;
+    min-width: 1200px;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-top: 370px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding: 14em 3em 2em;
+    color: #C30203;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-right {
+    text-align: right; /* Устанавливаем выравнивание текста по левому краю */
+}
+.card-space{
+    padding-top: 300px;
+    justify-content: center;
+    column-gap:150px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFF;
+    font-family: SF Pro Display, sans-serif;
+    margin: 0 auto;
+}
+.card1{
+    padding-left: 33px;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 770px;
+}
+.card2{
+    margin-top: -15px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    min-width: 706px;
+}
+.card2 h1{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card2 p{
+    color: #FFF;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.text-underlined {
+    text-decoration: underline; /* Добавляем подчеркивание к тексту */
+    text-decoration-skip-ink: none; /* Отключаем смещение для подчеркивания */
+    text-underline-offset: 10px; /* Устанавливаем смещение подчеркивания */
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card3{
+    /*width: 500px;*/
+    height: 300px;
+}
+.card {
+    width: 550px; /* Ширина 50% минус отступ для двух карточек в ряду */
+    padding: 45px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+
+}
+.kitty-img img{
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+}
+img{
+    flex-shrink: 0;
+}
+.kitty-card{
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.kitty-text{
+    min-width: 250px;
+    padding-top: 20px;
+}
+.logo-card {
+    display: flex;
+    gap: 30px;
+
+}
+.rec-card{
+    width: 550px;
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rec-img img{
+    padding: 0;
+    flex-shrink: 0;
+}
+.space{
+    width: 300px;
+}
+.mig-card{
+    display: flex;
+    gap: 30px;
+    padding-top: 300px;
+}
+.ne-card img{
+    height: 600px;
+    width: 90%;
+}
+.ne-card{
+    padding-top: 150px;
+}
+.ne-text{
+    padding-left: 35px;
+}
+.post-card img{
+    height: 600px;
+    width: 90%;
+}
+.red-line1{
+    margin-top: -46px;
+    width: 100%;
+    border: none; /* Удаляем стандартную границу элемента <hr> */
+    background-color: rgba(255, 0, 0, 0.5); /* Красный цвет с прозрачностью */
+    height: 0.5px; /* Высота линии */
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    padding-bottom: 100px; /* Добавляем отступ внизу, чтобы контент не прижимался к футеру */
+    flex: 1; /* Занимает оставшееся доступное место */
+}
+
+.footer {
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    display: flex;
+    padding: 40px;
+    color: #C30203;
+    column-gap: 500px;
+    font-family: SF Pro Display, sans-serif;
+
+    z-index: 999;
+    flex-shrink: 0; /* Не сжимается, чтобы остаться внизу */
+}
+
+.q{
+    display: block;
+    color: #C30203;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none; /* Отключаем смещение для подчеркивания */
+    text-underline-offset: 18px; /* Устанавливаем смещение подчеркивания */
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    text-transform: uppercase;
+}
+/*footer {*/
+/*    display: flex;*/
+/*    background-color: #000; !* Цвет фона футера *!*/
+/*    color: #fff; !* Цвет текста *!*/
+/*    padding: 20px; !* Внутренний отступ для содержимого футера *!*/
+/*    justify-content: space-around; !* Выравнивание содержимого *!*/
+/*    align-items: center; !* Выравнивание по вертикали *!*/
+/*    width: 100%; !* Ширина футера на всю ширину страницы *!*/
+/*    font-family: "SF Pro Display", sans-serif; !* Шрифт *!*/
+/*    z-index: 9999; !* Устанавливаем футер поверх остальных элементов *!*/
+/*}*/
+.footer{
+    color: #C30203;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/*MENU*/
+.mainmenubtn {
+    font-family: SF Pro Display, sans-serif;
+    font-size: 18px;
+    color: #C30203;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    font-style: normal;
+    /* Добавляем стили, чтобы элемент выглядел как кнопка */
+    display: inline-block;
+    user-select: none;
+}
+.mainmenubtn a{
+    text-decoration: none;
+    color: #C30203;
+}
+.mainmenubtn:hover {
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    min-width: 200px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dropdown-child a {
+    font-family: SF Pro Display, sans-serif;
+    color: #C30203;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.create-card{
+    padding-top: 20px;
+}
+.footer{
+    margin-left: 90px;
+}
+
+
+
+

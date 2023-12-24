@@ -1,0 +1,197 @@
+.footer{
+    color: #FFFFFF;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 40px;
+    column-gap: 500px;
+    z-index: 999;
+    flex-shrink: 0; /* Не сжимается, чтобы остаться внизу */
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.q{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none; /* Отключаем смещение для подчеркивания */
+    text-underline-offset: 18px; /* Устанавливаем смещение подчеркивания */
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    text-transform: uppercase;
+}
+/*MENU*/
+.mainmenubtn {
+    font-family: SF Pro Display, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    font-style: normal;
+    /* Добавляем стили, чтобы элемент выглядел как кнопка */
+    display: inline-block;
+    user-select: none;
+}
+
+.mainmenubtn:hover {
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    min-width: 200px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dropdown-child a {
+    font-family: SF Pro Display, sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.create-card{
+    padding-top: 20px;
+}
+.footer{
+    margin-left: 90px;
+}
+
+body{
+    background: #000;
+    font-family: SF Pro Display, sans-serif;
+    color: #FFFFFF;
+}
+.main-hed.about a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main-hed.about{
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-family: SF Pro Display , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header-con{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: SF Pro Display , sans-serif;
+
+}
+.projects,.about{
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+.about{
+
+    /*padding-right: 25px;*/
+}
+.about a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+main a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/**/
+
+.top{
+    display: flex;
+    column-gap: 680px;
+    padding: 56px;
+}
+.top-red{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 260px;
+    padding: 56px;
+}
+.logo-text{
+    /*padding-right: 100px;*/
+    width: 600px;
+}
+.redesign-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+    padding: 15px;
+    justify-content: center;
+
+}
+.redesign-container1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 190px;
+    justify-content: center;
+}
+.redesign-container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    transform: scale(0.98);
+}
+.redesign-container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    transform: scale(0.98);
+}
+
+.num{
+    padding-top: 40px;
+}
+.text-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+.cont{
+    width: 600px;
+}
+.text-cont{
+    width: 600px;
+}
+.nums{
+    width: 70px;
+}
+.text{
+    width: 390px;
+}
